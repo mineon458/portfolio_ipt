@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jasmine Dumangas – Starry Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <div class="stars"></div>
+  <div class="twinkle"></div>
+
+  <header>
+    <h1>Jasmine Dumangas</h1>
+    <p>Dreamer, Coder, and Star-Gazer ✨</p>
+    <div class="tool-badges">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" title="Figma">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" alt="Canva" title="Canva">
+      <img src="https://images.seeklogo.com/logo-png/43/1/capcut-logo-png_seeklogo-437025.png" alt="capcut" title="Capcut">
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>
+          Hello! I'm Min for short. I'm currently in my second year of college. I've made projects using HTML, CSS, C, and JavaScript, and I'm currently exploring trends related to coding. I chose a constellation theme for my portfolio because I love stars and astrological signs.
+        </p>
+      </div>
+      <div class="about-image">
+        <img src="https://i.ibb.co/JwGRccnv/jasmine-jpg.jpg" alt="mineon image" />
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>My Skills</h2>
+    
+    <div class="vertical-skill">
+      <div class="skill-image">
+        <div class="paired-icons">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" />
+        </div>
+      </div>
+      <div class="skill-details">
+        <h3>HTML & CSS</h3>
+        <p>Have experience in building responsive websites with HTML CSS, creating visually appealing interfaces with attention to detail and user experience.</p>
+      </div>
+    </div>
+    
+    <div class="vertical-skill">
+      <div class="skill-image">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript logo" />
+      </div>
+      <div class="skill-details">
+        <h3>JavaScript</h3>
+        <p>Currently learning JS fundamentals. Comfortable with manipulations, events, and basic algorithms. Exploring frameworks like React and Vue to build interactive web applications.</p>
+      </div>
+    </div>
+    
+    <div class="vertical-skill">
+      <div class="skill-image">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C Programming Logo" />
+      </div>
+      <div class="skill-details">
+        <h3>C Programming</h3>
+        <p>Completed multiple college projects in C, understanding pointers, memory management, and data structures. Developed applications and system-level programs.</p>
+      </div>
+    </div>
+    
+    <div class="vertical-skill">
+      <div class="skill-image">
+        <img src="https://i.ibb.co/fKV0Mc5/532860a3-b96b-4756-9523-7042bb11db40.jpg" alt="TikTok logo" class="social-icon-large" />
+      </div>
+      <div class="skill-details">
+        <h3>TikTok Content</h3>
+        <p>Creating engaging short-form video content with over 2 million views as of the present. Experienced in viral trends, algorithm optimization, and audience engagement strategies. Producing content that makes coding accessible to beginners.</p>
+      </div>
+    </div>
+    
+    <div class="vertical-skill">
+      <div class="skill-image">
+        <img src="https://i.ibb.co/RkcshsVm/1e1e34ba-fd39-442b-9d9d-33789f93899d.jpg" alt="YouTube logo" class="social-icon-large" />
+      </div>
+      <div class="skill-details">
+        <h3>YouTube Videos</h3>
+        <p>Producing content and skilled in video editing, scripting, and growing a subscriber base. Reaches 200k views within a month.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="process">
+    <h2>My Creative Process</h2>
+    <div class="process-steps">
+      <div class="step">
+        <div class="step-icon">🎨</div>
+        <h3>1. Design</h3>
+        <p>Wireframing in Figma</p>
+      </div>
+      <div class="step">
+        <div class="step-icon">✂️</div>
+        <h3>2. Edit</h3>
+        <p>Video editing in CapCut</p>
+      </div>
+      <div class="step">
+        <div class="step-icon">🖼️</div>
+        <h3>3. Polish</h3>
+        <p>Graphics in Canva</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Let's Connect</h2>
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required style="resize: none;"></textarea>
+      <button type="submit" class="btn">Send Message</button>
+      <p id="form-msg"></p>
+    </form>
+  </section>
+
+  <section style="text-align:center;">
+    <button id="theme-toggle" class="btn">Toggle Cute Mode 🌙</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
